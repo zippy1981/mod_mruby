@@ -3748,7 +3748,7 @@ test -n "$APXS_PATH" || APXS_PATH="no"
 
 fi
 if test "$APXS_PATH" = no; then
-    as_fn_error $? "apxs2 and apsx not found." "$LINENO" 5
+    as_fn_error $? "neither apxs2 or apxs not found." "$LINENO" 5
 fi
 
 
